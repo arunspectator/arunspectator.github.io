@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat',serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
@@ -16,9 +16,7 @@ hr {
 }
 
 .faded {
-  color: rgba(15,5,62, 0.8);
-  font-family: serif;
-  padding: 10px;
+  color: rgba(255, 255, 255, 0.8); 
 }
 
 header.startup {
@@ -29,7 +27,7 @@ header.startup {
 }
 
 header.startup hr {
-  margin-top: 400px;
+  margin-top: 200px;
   margin-bottom: 30px; 
 }
 
@@ -41,44 +39,21 @@ header.startup h1 {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', sans-serif;
 }
-.btn-info{
-	background-color: black;
-	border-color: white;
-	
 
-  }
-  .btn-info:hover{
-    padding: 1rem 2rem
-  	background-color:black;
-  	border-width: 5px;
-	cursor: pointer;
-  }
-  .footer{
-  	display:block;
-  	position: fixed;
-  	background: black;
-  	color: white;
-  	text-align: center;
-  	font-family: serif;
-  	width:100%;
-  	left: 0px;
-  	bottom: 0px;
-  }
-  .click{
-    color:black;
-  }
-  .tit{
-    font-family:serif;
-    font-style: italic;
-    margin-top: 5px;
+.btn-xl {
+  padding: 1rem 2rem; 
+}
 
-   font-size: 2em;
-   border-bottom: 2px solid pink;
-   border-right: 2px solid pink;
-   width: 600px;
-   text-align: center;
-   box-shadow: 4px 4px 5px #888888;
-  } 
-  }
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
