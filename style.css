@@ -66,9 +66,4 @@ header.startup h1 {
   	left: 0px;
   	bottom: 0px;
   }
-  .btn-info{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
