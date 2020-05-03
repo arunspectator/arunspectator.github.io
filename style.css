@@ -34,6 +34,7 @@ header.startup hr {
 header.startup h1 {
   color: #023869;
   font-size: 2rem;
+ bottom: 90; 
 }
 
 .btn {
@@ -65,14 +66,9 @@ header.startup h1 {
   bottom: 0;
 
   }
-  .clear{
-    position: fixed;
-
-    top:30;
-  }
 .but{
-  width:100px;
-  height: 150px;
-  margin: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
 
 }
