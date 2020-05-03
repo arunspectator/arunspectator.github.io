@@ -66,11 +66,9 @@ header.startup h1 {
   	left: 0px;
   	bottom: 0px;
   }
-  .btn{
+  .btn-info{
     position: fixed;
     display: flex;
-    height: 200px;
-    width: 150px;
     justify-content: center;
     align-items: center;
   }
