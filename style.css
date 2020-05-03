@@ -10,9 +10,9 @@ body {
 }
 
 hr {
-  max-width: 65px;
+  max-width: 90px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: black; 
 }
 
 .faded {
