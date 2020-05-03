@@ -34,7 +34,7 @@ header.startup hr {
 header.startup h1 {
   color: #023869;
   font-size: 2rem;
- bottom: 90; 
+  bottom: 90; 
 }
 
 .btn {
@@ -42,6 +42,8 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 70px;
+  margin-left: 10px;
 }
 
 .btn-xl {
