@@ -32,6 +32,7 @@ header.startup hr {
 }
 
 header.startup h1 {
+  color: #023869;
   font-size: 2rem; 
 }
 
@@ -57,7 +58,9 @@ header.startup h1 {
   cursor: pointer;
 }
 .footer{
+  position:fixed;
   width: 100%;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
+
   }
