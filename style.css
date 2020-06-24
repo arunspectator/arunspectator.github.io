@@ -460,6 +460,12 @@ footer p{
 	}
 	.edutext{
 		width: 100%;
+	}
+	.boxcontainer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 
 	}
 	.contact{
