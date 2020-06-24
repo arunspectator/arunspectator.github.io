@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY PORTFOLIO></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"
+	<link href="https://fonts.googleapis.com/css2?family=Kranky&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<!--navigation-->
+		<nav>
+			<!--Logo-->
+			<a href="" class="logo">ARUNSPECTATOR</a>
+			<!--menu--->
+			<ul>
+				<li><a href="#" class="Active">Home</a></li>
+				<li><a href="#about" class="#">About</a></li>
+				<li><a href="#education" class="#">Education</a></li>
+				<li><a href="#contact" class="#">Contact</a></li>
+			</ul>
+			<div class="toggle"></div>
+		</nav>
+		<!--text-->
+		<div class="textcontainer">
+			<p>Myself</p>
+			<p>Arunkumar Dhaylan</p>
+			<p>Engineer</p>
+			<a href="resume.txt" download><button class="down-cv">DOWNLOAD CV</button> </a>
+		</div>
+		<!--model-->
+		<img src="model.png" class="model" alt="photo">
+	</section>
+	<!--about....-->
+	<span id="about">
+		<div class="aboutcontainer">
+			<!--about image-->
+			<img src="about.jpg" alt="about">
+			<!--text-->
+			<div class="abouttext">
+				<p>ABOUT ME</p>
+				<p>Computer Science Engineer</p>
+				<p>Hi,Iam ArunKumar Dhayalan pursuing computer science engineering in panimalar engineering college.Iam an enthusiastic person to learn and work.Iam a upcoming webdeveloper and appdeveloper.I love to travel and shot the sweet memories.</p>
+				<p>Iam skilled person being certified in c,c++,Html5,css,javascript languages and uncertified in languages like python,java.Apart from this I have certification in Tallyerp9 and pursing stocks and finance.</p>
+				<a href="resume.txt" download><button class="down-cv">DOWNLOAD CV</button> </a>
+			</div>
+		</div>
+	</span>
+	<!--services-->
+	<span id="education">
+
+		<div class="education">
+			<div class="edutext">
+				<p>EDUCATION</p>
+				<P> "An investment in knowledge pays the best interest." –  Benjamin Franklin<br> “Education is the best friend. An educated person is respected everywhere. Education beats the beauty and the youth.” – Chanakya</P>
+			</div>
+		</div>
+		<!--box-->
+		<div class="boxcontainer">
+			<div class="box-1">
+				<span>10<sub>th</sub></span>
+				<p class="heading">SSLC</p>
+				<p class="details">Completed my High School in Immaculate heart of mary matriculation school with 96.8%</p>
+				<button>Read More</button>
+			</div>
+
+			<div class="box-2">
+				<span>12<sub>th</sub></span>
+				<p class="heading">HSC</p>
+				<p class="details">Completed my Higher Secondary in Gill Adarsh Matriculation  with 88.5%</p>
+				<button>Read More</button>
+			</div>
+
+			<div class="box-3">
+				<span>BE</span>
+				<p class="heading">ENGINEER</p>
+				<p class="details">Currently Pursuing Engineering in Panimalar with SGPA of 8.72</p>
+				<button>Read More</button>
+			</div>
+		</div>
+	</span>
+	<!--contact-->
+	<span id="contact">
+		<div class="contact">
+			<p>......TO KNOW MORE ABOUT ME......</p>
+			<button>CONTACT ME</button>		
+		</div>
+		<!--footer-->
+		<footer>
+			<p>Arunspectator</p>
+
+			<div class="social">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-telegram"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+				
+			</div>
+			<p class="copyright">Copyright-2020</p>
+		</footer>
+	</span>
+	<div class="asocial">
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-telegram"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+	</div>
+	<!--jquery-->
+<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.toggle').click(function(){
+				$('.toggle').toggleClass('active')
+				$('nav').toggleClass('active')
+			})
+		})
+	
+	</script>
+
+		
+
+</body>
+</html>
+
+	
