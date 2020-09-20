@@ -77,7 +77,7 @@ nav ul li a{
 	position:absolute;
 	left:13%;
 	top:45%;
-	transform:translate(-13%,-42%);
+	transform:translate(-13%,-45%);
 }
 .textcontainer button{
 	width: 130px;
@@ -91,7 +91,7 @@ nav ul li a{
 }
 .down-cv{
 	background-color: #0b0b0b;
-	color: #ffffff;
+	color: #fff;
 	border:none;
 }
 button:active{
